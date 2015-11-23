@@ -17,4 +17,5 @@ router.get('/clientcompanies', function(req, res, next) {
 router.get('/team', function(req, res, next) {
   res.render('team', {title: "Team"})
 })
+
 module.exports = router;

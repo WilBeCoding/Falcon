@@ -44,6 +44,10 @@ title {
   height: 15vh;
   width: 100%; }
 
+.companyList input {
+  height: 15vh;
+  width: 100%; }
+
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 7px; }
