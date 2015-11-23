@@ -1,0 +1,68 @@
+body{
+  margin:0;
+}
+
+.homepageHeader img{
+  height: 30vh;
+  width: 100vw;
+}
+
+.homepageHeader{
+  margin-top: -18%;
+}
+
+.homepageContainer {
+  font-size: 25px;
+}
+
+title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.aboutBody {
+  font-size: 25px;
+}
+
+.aboutContainer h1 {
+  text-align: center;
+}
+
+.clientCompaniesContainer h1{
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
+
+.clientCompaniesBody{
+  height:70vh;
+  border: 1px solid black;
+}
+
+.companyList{
+  border: 1px solid black;
+  height: 70vh;
+  overflow:auto;
+}
+
+.clientCompanyButtons{
+  height:70vh;
+  overflow: auto;
+}
+
+.companyList button{
+  height:15vh;
+  width:100%;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
