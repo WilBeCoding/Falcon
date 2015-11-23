@@ -1,5 +1,12 @@
 body{
   margin:0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html{
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .homepageHeader img{
@@ -12,7 +19,7 @@ body{
 }
 
 .homepageContainer {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 title {
@@ -21,7 +28,7 @@ title {
 }
 
 .aboutBody {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .aboutContainer h1 {
@@ -39,6 +46,12 @@ title {
 .clientCompaniesBody{
   height:70vh;
   border: 1px solid black;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.clientCompaniesBody p{
+  margin:5px;
 }
 
 .companyList{

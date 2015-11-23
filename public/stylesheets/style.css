@@ -1,5 +1,11 @@
 body {
-  margin: 0; }
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden; }
+
+html {
+  max-width: 100%;
+  overflow-x: hidden; }
 
 .homepageHeader img {
   height: 30vh;
@@ -9,14 +15,14 @@ body {
   margin-top: -18%; }
 
 .homepageContainer {
-  font-size: 25px; }
+  font-size: 18px; }
 
 title {
   text-align: center;
   margin: 0 auto; }
 
 .aboutBody {
-  font-size: 25px; }
+  font-size: 18px; }
 
 .aboutContainer h1 {
   text-align: center; }
@@ -29,7 +35,12 @@ title {
 
 .clientCompaniesBody {
   height: 70vh;
-  border: 1px solid black; }
+  border: 1px solid black;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.clientCompaniesBody p {
+  margin: 5px; }
 
 .companyList {
   border: 1px solid black;
