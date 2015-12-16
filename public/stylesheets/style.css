@@ -8,8 +8,8 @@ html {
   overflow-x: hidden; }
 
 .homepageHeader img {
-  height: 30vh;
-  width: 100vw; }
+  height: 90vh;
+  width: 95vw; }
 
 .homepageHeader {
   margin-top: -18%; }
@@ -58,6 +58,24 @@ title {
 .companyList input {
   height: 15vh;
   width: 100%; }
+
+.clientCompaniesHeader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 55px; }
+
+.clientCompaniesContainer1 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2.5%;
+  margin-right: 2.5%; }
+
+.clientCompaniesBody1 {
+  width: 75%; }
+
+.sidebarClientCompanies {
+  margin-top: 5%; }
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;

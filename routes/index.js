@@ -18,4 +18,12 @@ router.get('/team', function(req, res, next) {
   res.render('team', {title: "Team"})
 })
 
+router.get('/indiancompanies', function(req, res, next) {
+  res.render('indianCompanies', {title: "Indian Companies"})
+})
+
+router.get('/clientcompaniesnew', function(req, res, next) {
+  res.render('clientCompanies1', {title: 'Client Companies'})
+});
+
 module.exports = router;
