@@ -69,13 +69,35 @@ title {
   display: -ms-flexbox;
   display: flex;
   margin-left: 2.5%;
-  margin-right: 2.5%; }
+  margin-right: 2.5%;
+  font-size: 20px; }
 
 .clientCompaniesBody1 {
-  width: 75%; }
+  width: 77%; }
 
 .sidebarClientCompanies {
   margin-top: 5%; }
+
+.globalPageContainer {
+  margin-top: 5%; }
+
+ul {
+  list-style: none; }
+
+.ulHeader {
+  font-weight: bold;
+  font-size: 22px; }
+
+.sidebarClientCompanies li {
+  padding-left: 15px;
+  padding-bottom: 5px; }
+
+.sidebarClientCompanies ul {
+  font-weight: bold; }
+
+.sidebarClientCompanies li:hover {
+  color: blue;
+  border-left: 1px solid blue; }
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
