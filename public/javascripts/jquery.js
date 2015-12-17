@@ -166,7 +166,28 @@ $( document ).ready(function() {
     $('.sportsTradex').removeClass('hide')
   })
 
-    $(".jumper").on("click", function(e) {
-        e.preventDefault(); 
-    $("body, html").animate({ scrollTop: $( $(this).attr('href') ).offset().top }, 600); });
+  var stickySidebar = $('.sidebarClientCompanies').offset().top; 
+  // var footerStop = $('#footer').offset().top;
+
+  var stickySidebar = function(){
+    var scrollTop = $(window).scrollTop();      
+    if(scrollTop >= 150) { 
+        $('.sidebarClientCompanies').addClass('sticky');
+    }
+    else if(scrollTop === 150){
+      console.log("this hits");
+    }
+    else {
+      $('.sidebarClientCompanies').removeClass('sticky'); 
+    }
+    console.log(scrollTop);
+  };
+
+  stickySidebar();
+   
+  $(window).scroll(function() {
+      stickySidebar();
+      // stopOnFooterFunction();
+  });
+
 });
