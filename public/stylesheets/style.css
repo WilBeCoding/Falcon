@@ -62,6 +62,9 @@ title {
   height: 15vh;
   width: 100%; }
 
+.teamTitles {
+  font-weight: bold; }
+
 .clientCompaniesHeader {
   text-align: center;
   font-weight: bold;
@@ -84,7 +87,7 @@ title {
 .globalPageContainer {
   margin-top: 5%; }
 
-ul {
+.sidebarClientCompanies ul {
   list-style: none; }
 
 .ulHeader {
@@ -99,6 +102,9 @@ ul {
 .sidebarClientCompanies ul {
   font-weight: bold; }
 
+.sidebarTeam ul {
+  list-style: none; }
+
 .sidebarClientCompanies li:hover {
   color: orange;
   border-left: 1px solid blue; }
@@ -107,6 +113,17 @@ ul {
   position: fixed;
   width: 100%;
   margin-top: -5%; }
+
+.teamContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  font-size: 20px; }
+
+.sidebarTeam {
+  width: 200vw; }
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
