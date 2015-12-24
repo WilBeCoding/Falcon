@@ -7,6 +7,9 @@ html {
   max-width: 100%;
   overflow-x: hidden; }
 
+a {
+  color: black; }
+
 .homepageHeader img {
   height: 90vh;
   width: 95vw; }
@@ -90,13 +93,14 @@ ul {
 
 .sidebarClientCompanies li {
   padding-left: 15px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  font-color: black; }
 
 .sidebarClientCompanies ul {
   font-weight: bold; }
 
 .sidebarClientCompanies li:hover {
-  color: blue;
+  color: orange;
   border-left: 1px solid blue; }
 
 .sticky {

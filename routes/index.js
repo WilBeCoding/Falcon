@@ -11,7 +11,7 @@ router.get('/about', function(req, res, next) {
 })
 
 router.get('/clientcompanies', function(req, res, next) {
-  res.render('clientCompanies', {title: "Client Companies"})
+  res.render('clientCompanies1', {title: "Client Companies"})
 })
 
 router.get('/team', function(req, res, next) {
@@ -23,7 +23,7 @@ router.get('/indiancompanies', function(req, res, next) {
 })
 
 router.get('/clientcompaniesnew', function(req, res, next) {
-  res.render('clientCompanies1', {title: 'Client Companies'})
+  res.render('clientCompanies', {title: 'Client Companies'})
 });
 
 module.exports = router;
