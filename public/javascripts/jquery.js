@@ -166,9 +166,6 @@ $( document ).ready(function() {
     $('.sportsTradex').removeClass('hide')
   })
 
-  var stickySidebar = $('.sidebarClientCompanies').offset().top; 
-  // var footerStop = $('#footer').offset().top;
-
   var stickySidebar = function(){
     var scrollTop = $(window).scrollTop();      
     if(scrollTop >= 150) { 

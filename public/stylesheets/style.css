@@ -1,31 +1,69 @@
 body {
   margin: 0;
   max-width: 100%;
-  overflow-x: hidden; }
+  /*padding-top:264px;*/
+  /*overflow-x: hidden; */
+}
 
 html {
   max-width: 100%;
-  overflow-x: hidden; 
-}
+  overflow-x: hidden; }
 
 a {
   color: black; }
 
-/*.homepageHeader img {
+.homepageHeader img {
   width: 100%;
-  margin-top:249px;
+  /*margin-top:249px;*/
   position:relative;
-
+  /*visibility:hidden;*/
 }
-*/
+
+.homepageHeader h1{
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  z-index:1;
+  padding-left: 42%;
+  padding-top: 15%;
+      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+  }
+
+  @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+}
 
 .homepageHeader {
-  background-image: url(../images/falconFirstHeroDraft.jpg);
-  width: 500vw;
-  height: 250vh;
-}
-
-.homepageBodyContainer {
+  text-align: center;
 }
 
 .homepageContainer {
@@ -145,12 +183,22 @@ title {
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5); }
 
-.falconHeroTest .span {
-  z-index: 1;
-  position:absolute;
-  font: bold;
-  letter-spacing: -1px;
-  background: rgb(0,0,0);
-  background: rgb(0,0,0,0.7s);
-  padding:10px;
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 }
+./*text-animated-one{
+  opacity:0;  /* make things invisible upon start */
+   -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+   -moz-animation:fadeIn ease-in 1;
+   animation:fadeIn ease-in 1;
+
+   -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+   -moz-animation-fill-mode:forwards;
+   animation-fill-mode:forwards;
+
+   -webkit-animation-duration:1s;
+   -moz-animation-duration:1s;
+   animation-duration:1s;
+}*/
+
