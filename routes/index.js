@@ -26,4 +26,8 @@ router.get('/clientcompaniesnew', function(req, res, next) {
   res.render('clientCompanies', {title: 'Client Companies'})
 });
 
+router.get('/strategicrelationships', function(req, res, next) {
+  res.render('strategicrelationships', {title: 'Strategic Relationships'})
+})
+
 module.exports = router;

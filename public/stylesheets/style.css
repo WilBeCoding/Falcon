@@ -5,17 +5,28 @@ body {
 
 html {
   max-width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+}
 
 a {
   color: black; }
 
-.homepageHeader img {
-  height: 90vh;
-  width: 95vw; }
+/*.homepageHeader img {
+  width: 100%;
+  margin-top:249px;
+  position:relative;
+
+}
+*/
 
 .homepageHeader {
-  margin-top: -18%; }
+  background-image: url(../images/falconFirstHeroDraft.jpg);
+  width: 500vw;
+  height: 250vh;
+}
+
+.homepageBodyContainer {
+}
 
 .homepageContainer {
   font-size: 18px; }
@@ -133,3 +144,13 @@ title {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5); }
+
+.falconHeroTest .span {
+  z-index: 1;
+  position:absolute;
+  font: bold;
+  letter-spacing: -1px;
+  background: rgb(0,0,0);
+  background: rgb(0,0,0,0.7s);
+  padding:10px;
+}
