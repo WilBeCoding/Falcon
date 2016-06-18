@@ -19,47 +19,52 @@ a {
   /*visibility:hidden;*/
 }
 
+p {
+  font-size: 22px;
+}
+
 .homepageHeader h1{
-  font-size: 45px;
+  font-family: 'Mitr', sans-serif;
+  font-size: 75px;
   font-weight: bold;
   position: absolute;
   z-index:1;
-  padding-left: 42%;
+  padding-left: 35%;
   padding-top: 15%;
-      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-         -moz-animation: fadein 2s; /* Firefox < 16 */
-          -ms-animation: fadein 2s; /* Internet Explorer */
-           -o-animation: fadein 2s; /* Opera < 12.1 */
-              animation: fadein 2s;
+      -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 14.1 */
+         -moz-animation: fadein 4s; /* Firefox < 16 */
+          -ms-animation: fadein 4s; /* Internet Explorer */
+           -o-animation: fadein 4s; /* Opera < 14.1 */
+              animation: fadein 4s;
   }
 
   @keyframes fadein {
       from { opacity: 0; }
-      to   { opacity: 1; }
+      to   { opacity: 100; }
   }
 
   /* Firefox < 16 */
   @-moz-keyframes fadein {
       from { opacity: 0; }
-      to   { opacity: 1; }
+      to   { opacity: 100; }
   }
 
   /* Safari, Chrome and Opera > 12.1 */
   @-webkit-keyframes fadein {
       from { opacity: 0; }
-      to   { opacity: 1; }
+      to   { opacity: 100; }
   }
 
   /* Internet Explorer */
   @-ms-keyframes fadein {
       from { opacity: 0; }
-      to   { opacity: 1; }
+      to   { opacity: 100; }
   }
 
   /* Opera < 12.1 */
   @-o-keyframes fadein {
       from { opacity: 0; }
-      to   { opacity: 1; }
+      to   { opacity: 100; }
 }
 
 .homepageHeader {
@@ -67,7 +72,9 @@ a {
 }
 
 .homepageContainer {
-  font-size: 18px; }
+  font-size: 18px; 
+  padding-top: 18px;
+}
 
 title {
   text-align: center;
@@ -117,7 +124,9 @@ title {
 .clientCompaniesHeader {
   text-align: center;
   font-weight: bold;
-  font-size: 55px; }
+  font-size: 55px;
+  padding-top: 18px;
+}
 
 .clientCompaniesContainer1 {
   display: -webkit-flex;
@@ -134,7 +143,7 @@ title {
   margin-top: 5%; }
 
 .globalPageContainer {
-  margin-top: 5%; }
+  margin-top: 4%; }
 
 .sidebarClientCompanies ul {
   list-style: none; }
